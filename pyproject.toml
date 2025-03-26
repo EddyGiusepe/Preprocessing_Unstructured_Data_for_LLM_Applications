@@ -1,0 +1,25 @@
+[project]
+name = "project-with-unstructured"
+version = "0.1.0"
+description = "Aqui usamos UNSTRUCTURED para pré-processar dados que serão usados pelos LLMs"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "ipython>=9.0.2",
+    "numpy>=2.2.4",
+    "panel>=1.6.1",
+    "pdfminer>=20191125",
+    "pdfminer-six>=20250324",
+    "pi-heif>=0.22.0",
+    "protobuf>=6.30.2",
+    "python-dotenv>=1.1.0",
+    "python-pptx>=1.0.2",
+    "unstructured>=0.17.2",
+    "unstructured-client>=0.31.3"
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+]
